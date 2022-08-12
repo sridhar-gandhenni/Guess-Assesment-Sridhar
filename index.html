@@ -1,0 +1,31 @@
+<!DOCTYPE html>  
+ <html lang="en">  
+ <head>  
+   <meta charset="UTF-8">  
+   <title>Document</title>  
+   <link rel="stylesheet" href="style.css">  
+ </head>  
+ <body background="./assets/Gamebackground.jpg">  
+   
+
+   <div class="container"> 
+     <h3>Guess My Number!</h3>  
+     <h3>(Between 1 and 100)</h3>  
+
+       <input type="number" placeholder="Enter a number" id="guessinput" min="1" max="100"><br>  
+
+       <button type="button" onclick="checkGuess()" id="guessbtn">GUESS</button> 
+       
+       <p id="message1">Start guessing...</p>  
+       <!-- <p id="scoreresult">Score: </p>   -->
+       <p id="chances">Chances </p>
+       <p id="statusrange">Your Number</p> 
+
+       <button type="reset" onclick="resetGame()">Reset</button>  
+      
+
+   </div> 
+ 
+   <script src="basic.js"></script>  
+ </body>  
+ </html>  
